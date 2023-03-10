@@ -1,0 +1,11 @@
+
+table{
+  border-collapse: separate;
+  border-spacing: 0 20px;
+  background-color: #e3e7ee
+}
+
+
+.borderless td, .borderless th {
+  border: none;
+}

@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+}
+.main {
+  width: 100%;
+  padding: 20px;
+}
+.sidebar {
+  position: absolute;
+  background-color: whitesmoke;
+  color: black;
+}
+.topnav {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  background-color: #7952b3;
+}
+.logo {
+  font-size: 5px;
+}
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-left: 15px;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+.bars:hover {
+  background-color: gray;
+}
+.searchbar:selection {
+  background-color: white;
+}
+.link {
+  display: flex;
+  color: black;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover {
+  background-color: gainsboro;
+  color: black;
+}
+
+.navbar .dropdown-item i {
+  font-size: 16px;
+  min-width: 22px;
+}
+.navbar .dropdown-item .material-icons {
+  font-size: 21px;
+  line-height: 16px;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+.navbar .nav-item.open > a,
+.navbar .nav-item.open > a:hover,
+.navbar .nav-item.open > a:focus {
+  color: #fff;
+  background: none !important;
+}
+.navbar .dropdown-menu {
+  border-radius: 1px;
+  border-color: #e5e5e5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.navbar .dropdown-menu a {
+  color: #777 !important;
+  padding: 8px 20px;
+  line-height: normal;
+  font-size: 15px;
+}
+.navbar .dropdown-menu a:hover,
+.navbar .dropdown-menu a:focus {
+  color: #333 !important;
+  background: transparent !important;
+}
+.navbar .navbar-nav .active a,
+.navbar .navbar-nav .active a:hover,
+.navbar .navbar-nav .active a:focus {
+  color: #fff;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
+  background: transparent !important;
+}
+.navbar .navbar-nav .user-action {
+  padding: 9px 15px;
+  font-size: 15px;
+}
+.navbar .navbar-toggle {
+  border-color: #fff;
+}
+.navbar .navbar-toggle .icon-bar {
+  background: #fff;
+}
+.navbar .navbar-toggle:focus,
+.navbar .navbar-toggle:hover {
+  background: transparent;
+}
+.navbar .navbar-nav .open .dropdown-menu {
+  background: #faf7fd;
+  border-radius: 1px;
+  border-color: #faf7fd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.navbar .divider {
+  background-color: #e9ecef !important;
+}
+@media (min-width: 1200px) {
+  .form-inline .input-group {
+    width: 350px;
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1199px) {
+  .navbar .navbar-nav > a > i {
+    display: inline-block;
+    text-align: left;
+    min-width: 30px;
+    position: relative;
+    top: 4px;
+  }
+  .navbar .navbar-collapse {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+  }
+  .navbar .navbar-form {
+    border: none;
+    display: block;
+    margin: 10px 0;
+    padding: 0;
+  }
+  .navbar .navbar-nav {
+    margin: 8px 0;
+  }
+  .navbar .navbar-toggle {
+    margin-right: 0;
+  }
+  .input-group {
+    width: 100%;
+  }
+}
+
+.navloop {
+  background-color: #7952b3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebar {
+  color: black;
+  height: 100vh;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+
+  background: #7952b3;
+}
+.logo {
+  font-size: 178px;
+  line-height: 0;
+  color: white;
+}
+.link {
+  display: flex;
+  color: black;
+  gap: 10px;
+  padding: 5px 10px;
+}
+.link:hover {
+  border-right: 4px solid white;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  background: gray;
+}
+.main_container {
+  display: flex;
+  padding: 30px;
+}
+.title {
+  font-size: 30px;
+}
+.main {
+  padding: 30px;
+}
+.allinks {
+  overflow: hidden;
+}
+.navbar {
+  background-color: #7952b3;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  display: flex;
+}
+main {
+  padding: 10px;
+}
+.title {
+  font-size: 3rem;
+  display: grid;
+  place-items: center;
+}
+/* Sidebar */
+.sidebar {
+  background:whitesmoke;
+  color: black;
+  height: 100vh;
+  overflow-y: auto;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+}
+.logo {
+  font-size: 18px;
+  line-height: 0;
+}
+.bars {
+  width: 50px;
+  color: white;
+  padding-left: none;
+}
+.hide {
+  display: none;
+}
+
+.routes {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.link {
+  display: flex;
+  color: black;
+  gap: 10px;
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.link:hover {
+  border-right: 4px solid black;
+  background: white;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.link_text {
+  white-space: nowrap;
+  font-size: 15px;
+}
+.menu {
+  display: flex;
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  justify-content: space-between;
+}
+.menu_item {
+  display: flex;
+  gap: 10px;
+}
+.menu_container {
+  display: flex;
+  flex-direction: column;
+}
+.menu_container .link {
+  padding-left: 20px;
+  border-bottom: #fff 0.5px solid;
+}
+
